@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+footer
+{
+  color     : rgb( 223,  98,  98 );
+  background: rgb( 184,  64,  61 );
+  text-shadow: 0.2ex 0.2ex 0.6ex #000;
+  display: flex;
+  justify-content: center;
+}
+
+footer div
+{
+  width : 96.0ex;
+}
+
+footer p > span
+{
+  display: inline-block;
+  width: 8ex;
+}
+
+footer a
+{
+  color: rgb( 223, 98, 98 );
+}
+
+footer a:hover
+{
+  color: rgb( 231, 131, 131 );
+  background: rgb( 223, 98, 98 );
+}

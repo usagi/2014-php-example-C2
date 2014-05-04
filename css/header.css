@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+header
+{
+  background: #E78383;
+  display: flex;
+  text-shadow: 0.2ex 0.2ex 0.6ex #000;
+  justify-content: center;
+}
+
+header > div
+{
+  width : 96.0ex;
+}
+
+header article h1
+{
+  color: #111;
+}
+
+header article p
+{
+  color: white;
+}
+
+header nav
+{
+  display: flex;
+}

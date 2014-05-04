@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+#main
+{
+  margin-left : auto;
+  margin-right: auto;
+  overflow    : auto;
+  display        : flex;
+  flex-wrap      : wrap;
+  justify-content: center;
+}
+
+#main *
+{
+  font-family: 'Inconsolata';
+  transition: none;
+}
+
+#main a
+{
+  color: rgb( 223, 98, 98 );
+}
+
+#main a:hover
+{
+  color     : rgb( 231, 131, 131 );
+  background: red;
+}
+
+#main > *
+{
+  padding : 0.3ex;
+  width : 96.0ex;
+  height: 54.0ex;
+  box-shadow:rgba(113, 135, 164, 0.65098) 0px 0px 5px 0px inset;
+}
+
+#playground
+{
+}
+
+#log
+{
+  overflow: auto;
+}
+
+#log > ul
+{
+}
+
+#log > ul > li
+{
+  border-radius: 10ex;
+}
+
+#log > ul > li.FATAL
+{
+  color     : white;
+  background: red;
+}
+
+#log > ul > li.ERROR
+{
+  color     : black;
+  background: red;
+}
+
+#log > ul > li.WARN
+{
+  color     : red;
+  background: yellow;
+}
+
+#log > ul > li.INFO
+{
+  color     : black;
+  background: white;
+}
+
+#log > ul > li.DEBUG
+{
+  color     : gray;
+  background: white;
+}
+
+#log > ul > li > ul
+{
+  display: flex;
+}
+
+#log > ul > li > ul > li
+{
+  margin-left: 0.5ex;
+}
+
+#log > ul > li > ul > li.level
+{
+  width:8ex;
+}
+
+#log > ul > li > ul > li.time
+{
+  width:33ex;
+}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+nav ul
+{
+  display: flex;
+}
+
+nav ul li
+{
+  margin-left : 1ex;
+  margin-right: 1ex;
+}
